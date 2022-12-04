@@ -4,14 +4,14 @@
 
 https://trungquandev.com/lo-trinh-hoc-lap-trinh-web-tu-con-so-0
 
-🌐 Slide của khoá học:
-
-https://docs.google.com/presentation/d/1YejowVgbTHRwKWxkq5n_2i5P4DpJmbS0ux2CC7aHOGQ/edit?usp=sharing
-
-🌐 Playlist của khoá này:
+🌐 YouTube Playlist của khoá này:
 (Các bạn nên mở PLaylist để theo dõi đúng thứ tự các bài học nhé)
 
 https://www.youtube.com/playlist?list=PLP6tw4Zpj-RK-A2xwiIKlVAXeO8TUxQCh
+
+🌐 Slide của khoá học:
+
+https://docs.google.com/presentation/d/1YejowVgbTHRwKWxkq5n_2i5P4DpJmbS0ux2CC7aHOGQ/edit?usp=sharing
 
 ## Requirements
 
