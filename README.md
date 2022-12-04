@@ -1,11 +1,15 @@
 # Repo chính thức của chuỗi khóa học HTML CSS Nền Tảng Vững Chắc nhé ^^
 
 🌐 Lộ trình học lập trình web từ con số 0 dành cho tất cả các bạn:
+
 https://trungquandev.com/lo-trinh-hoc-lap-trinh-web-tu-con-so-0
+
 🌐 Slide của khoá học:
+
 https://docs.google.com/presentation/d/1YejowVgbTHRwKWxkq5n_2i5P4DpJmbS0ux2CC7aHOGQ/edit?usp=sharing
 🌐 Playlist của khoá này:
 (Các bạn nên mở PLaylist để theo dõi đúng thứ tự các bài học nhé)
+
 https://www.youtube.com/playlist?list=PLP6tw4Zpj-RK-A2xwiIKlVAXeO8TUxQCh
 
 ## Requirements
