@@ -7,6 +7,33 @@
   <title>Đây là tiêu đề của một trang web</title>
 </head>
 <body>
+  <mark>Lesson 10 - Image map</mark><br>
+  <!-- Cái ảnh ở bài 10 nó khá to, nên mình sẽ thêm with height bằng 100 để thu nhỏ lại.
+    Khi nào cần test phần image map thì xóa thuộc tính width height đi
+  -->
+  <img src="images/lesson-10-img-map/01-original.jpeg" usemap="#my-img-map-trungquandev" width="100" height="100">
+  <map name="my-img-map-trungquandev">
+    <area
+      shape="rect"
+      coords="830,1766,1791,2126"
+      title="Keyboard"
+      href="lesson-10-img-map-content/keyboard.html"
+    >
+    <area
+      shape="circle"
+      coords="1217,1527,121"
+      title="Airpod"
+      href="lesson-10-img-map-content/airpod.html"
+    >
+    <area
+      shape="poly"
+      coords="1910,1860,1907,2045,1944,2192,2046,2232,2143,2175,2146,2025,2106,1871,2024,1829"
+      title="Mouse"
+      href="lesson-10-img-map-content/mouse.html"
+    >
+  </map>
+
+  <hr>
   <mark>Lesson 09</mark><br>
   <div>
     <img
