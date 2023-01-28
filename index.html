@@ -9,7 +9,7 @@
   <title>Đây là tiêu đề của một trang web</title>
 
   <style>
-    table {
+    /* table {
       width: 70%;
       border-collapse: collapse;
     }
@@ -17,20 +17,67 @@
       border: 1px solid #dddddd;
       text-align: left;
       padding: 15px;
-    }
+    } */
+
     /* odd - Những hàng lẻ: 1-3-5-7-9...vv */
-    tr:nth-child(odd) {
+    /* tr:nth-child(odd) {
       background-color: yellowgreen;
-      /* color: blue; */
-    }
+    } */
     /* even - Những hàng chẵn: 2-4-6-8-10...vv */
-    tr:nth-child(even) {
+    /* tr:nth-child(even) {
       background-color: goldenrod;
-    }
+    } */
   </style>
 
 </head>
 <body>
+  <mark>Lesson 16 - Table Colgroup</mark><br>
+  <table width="100%">
+    <colgroup>
+      <col span="2" style="background-color: pink">
+      <col span="1" style="background-color: lightgreen">
+      <col span="2" style="background-color: yellowgreen">
+      <col span="2" style="background-color: lightcoral">
+    </colgroup>
+    <tr style="text-align: left;">
+      <th>MON</th>
+      <th>TUE</th>
+      <th>WED</th>
+      <th>THU</th>
+      <th>FRI</th>
+      <th>SAT</th>
+      <th>SUN</th>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+      <td>CN</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+      <td>CN</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+      <td>CN</td>
+    </tr>
+  </table>
+
+  <hr>
   <mark>Lesson 15 - Table Colspan &amp; Rowspan</mark><br>
   <h3>Table để test <mark>Rowspan</mark></h3>
   <table>
