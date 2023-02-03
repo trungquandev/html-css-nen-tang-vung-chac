@@ -27,10 +27,31 @@
     /* tr:nth-child(even) {
       background-color: goldenrod;
     } */
+
+    .class-20 {
+      color: lightseagreen;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    #id-content-01 {
+      color: lightcoral;
+    }
+    #id-content-02 {
+      color: lightskyblue;
+    }
   </style>
 
 </head>
 <body>
+  <mark>Lesson 20 - HTML Class &amp; Id</mark><br>
+  <div class="class-20">Content Class 01</div>
+  <div class="class-20">Content Class 02</div>
+  <div class="class-20">Content Class 03</div>
+
+  <div id="id-content-01">Content Id 01</div>
+  <div id="id-content-02">Content Id 02</div>
+
+  <hr>
   <mark>Lesson 19 - HTML Block &amp; Inline</mark><br>
   <div>Block 01</div>
   <div>Block 02</div>
@@ -410,4 +431,17 @@
   <p>Đây là một đoạn văn bản</p>
   <p>Cấu trúc cơ bản của một trang web là đây!</p>
 </body>
+
+<script>
+  // DOM theo Class
+  const class20 = document.getElementsByClassName("class-20")
+  class20[0].style.color = "red"
+
+  // DOM theo Id
+  const idContent01 = document.getElementById('id-content-01')
+  const idContent02 = document.getElementById('id-content-02')
+  idContent01.innerHTML = 'Thay đổi content.'
+  idContent02.style.fontSize = '12px'
+</script>
+
 </html>
