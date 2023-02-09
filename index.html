@@ -40,9 +40,22 @@
       color: lightskyblue;
     }
   </style>
-
+  <script src="lesson22.js" async></script>
 </head>
 <body>
+  <mark>Lesson 22 - HTML JavaScript</mark><br>
+  <p>Cách 1: sử dụng JS trực tiếp trong thẻ HTML:</p>
+  <button type="button" onclick="alert('trungquandev abcxyz')">Show Alert</button>
+
+  <p>Cách 2: sử dụng JS trong cặp thẻ &lt;script&gt; (tương tự buổi trước đã làm với Class và Id):</p>
+  <p><strong id="lesson_22_js_cach_2"></strong></p>
+  <script>document.getElementById("lesson_22_js_cach_2").innerHTML = "Inserted text: Trungquandev"</script>
+
+  <p>Cách 3: sử dụng JS trong một file riêng và nhúng vào trang HTML:</p>
+  <p><strong id="lesson_22_js_cach_3"></strong></p>
+  <em>Thẻ script của cách 3 đã để ở trên thẻ Head với khai báo thuộc tính async</em>
+
+  <hr>
   <mark>Lesson 21 - HTML Iframe</mark><br>
   <iframe src="https://trungquandev.com"
     width="500"
